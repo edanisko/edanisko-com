@@ -8,9 +8,9 @@ export async function fetchPosts() {
   return data;
 }
 
-// handling form input data 
-export default function handler(req, res) {
-  const email = req.body.email;
-  // Then save email to your database, etc...
-  res.status(200).json({ text: "Success" });
-}
+// handling form input data
+// export default function handler(req, res) {
+//   const email = req.body.email;
+//   // Then save email to your database, etc...
+//   res.status(200).json({ text: "Success" });
+// }
